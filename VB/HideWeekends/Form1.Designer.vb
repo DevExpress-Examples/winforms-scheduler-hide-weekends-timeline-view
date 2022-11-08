@@ -45,13 +45,11 @@ Namespace TimelineTimeScales
             Me.schedulerStorage1 = New DevExpress.XtraScheduler.SchedulerStorage(Me.components)
             Me.panelControl1 = New DevExpress.XtraEditors.PanelControl()
             Me.checkEdit1 = New DevExpress.XtraEditors.CheckEdit()
-            Me.checkEdit2 = New DevExpress.XtraEditors.CheckEdit()
             CType((Me.schedulerControl1), System.ComponentModel.ISupportInitialize).BeginInit()
             CType((Me.schedulerStorage1), System.ComponentModel.ISupportInitialize).BeginInit()
             CType((Me.panelControl1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.panelControl1.SuspendLayout()
             CType((Me.checkEdit1.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
-            CType((Me.checkEdit2.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' schedulerControl1
@@ -71,7 +69,6 @@ Namespace TimelineTimeScales
             ' 
             ' panelControl1
             ' 
-            Me.panelControl1.Controls.Add(Me.checkEdit2)
             Me.panelControl1.Controls.Add(Me.checkEdit1)
             Me.panelControl1.Dock = System.Windows.Forms.DockStyle.Top
             Me.panelControl1.Location = New System.Drawing.Point(0, 0)
@@ -90,18 +87,6 @@ Namespace TimelineTimeScales
             Me.checkEdit1.TabIndex = 0
             AddHandler Me.checkEdit1.CheckedChanged, New System.EventHandler(AddressOf Me.checkEdit1_CheckedChanged)
             ' 
-            ' checkEdit2
-            ' 
-            Me.checkEdit2.Enabled = False
-            Me.checkEdit2.Location = New System.Drawing.Point(159, 4)
-            Me.checkEdit2.Name = "checkEdit2"
-            Me.checkEdit2.Properties.Caption = "Paint Correction"
-            Me.checkEdit2.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Style6
-            Me.checkEdit2.Properties.GlyphAlignment = DevExpress.Utils.HorzAlignment.Far
-            Me.checkEdit2.Size = New System.Drawing.Size(102, 22)
-            Me.checkEdit2.TabIndex = 1
-            AddHandler Me.checkEdit2.CheckedChanged, New System.EventHandler(AddressOf Me.checkEdit2_CheckedChanged)
-            ' 
             ' Form1
             ' 
             Me.AutoScaleDimensions = New System.Drawing.SizeF(6F, 13F)
@@ -116,7 +101,6 @@ Namespace TimelineTimeScales
             CType((Me.panelControl1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.panelControl1.ResumeLayout(False)
             CType((Me.checkEdit1.Properties), System.ComponentModel.ISupportInitialize).EndInit()
-            CType((Me.checkEdit2.Properties), System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
         End Sub
 
@@ -128,7 +112,5 @@ Namespace TimelineTimeScales
         Private panelControl1 As DevExpress.XtraEditors.PanelControl
 
         Private checkEdit1 As DevExpress.XtraEditors.CheckEdit
-
-        Private checkEdit2 As DevExpress.XtraEditors.CheckEdit
     End Class
 End Namespace
