@@ -49,13 +49,12 @@ namespace TimelineTimeScales
             this.schedulerStorage1 = new DevExpress.XtraScheduler.SchedulerStorage(this.components);
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.checkEdit1 = new DevExpress.XtraEditors.CheckEdit();
-            this.checkEdit2 = new DevExpress.XtraEditors.CheckEdit();
+           
             ((System.ComponentModel.ISupportInitialize)(this.schedulerControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.schedulerStorage1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // schedulerControl1
@@ -75,7 +74,6 @@ namespace TimelineTimeScales
             // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.checkEdit2);
             this.panelControl1.Controls.Add(this.checkEdit1);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
@@ -93,18 +91,7 @@ namespace TimelineTimeScales
             this.checkEdit1.Size = new System.Drawing.Size(103, 22);
             this.checkEdit1.TabIndex = 0;
             this.checkEdit1.CheckedChanged += new System.EventHandler(this.checkEdit1_CheckedChanged);
-            // 
-            // checkEdit2
-            // 
-            this.checkEdit2.Enabled = false;
-            this.checkEdit2.Location = new System.Drawing.Point(159, 4);
-            this.checkEdit2.Name = "checkEdit2";
-            this.checkEdit2.Properties.Caption = "Paint Correction";
-            this.checkEdit2.Properties.CheckStyle = DevExpress.XtraEditors.Controls.CheckStyles.Style6;
-            this.checkEdit2.Properties.GlyphAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.checkEdit2.Size = new System.Drawing.Size(102, 22);
-            this.checkEdit2.TabIndex = 1;
-            this.checkEdit2.CheckedChanged += new System.EventHandler(this.checkEdit2_CheckedChanged);
+           
             // 
             // Form1
             // 
@@ -120,7 +107,6 @@ namespace TimelineTimeScales
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.checkEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.checkEdit2.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -131,7 +117,5 @@ namespace TimelineTimeScales
         private DevExpress.XtraScheduler.SchedulerStorage schedulerStorage1;
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.CheckEdit checkEdit1;
-        private DevExpress.XtraEditors.CheckEdit checkEdit2;
     }
 }
-
