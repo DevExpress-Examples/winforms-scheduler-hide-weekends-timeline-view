@@ -1,4 +1,4 @@
-﻿' Developer Express Code Central Example:
+' Developer Express Code Central Example:
 ' How to hide weekends in the Timeline view
 ' 
 ' This example illustrates the use of a custom scale to hide the weekends in the
@@ -11,25 +11,21 @@
 ' 
 ' You can find sample updates and versions for different programming languages here:
 ' http://www.devexpress.com/example=E1214
-
 Imports System
-Imports System.Collections.Generic
 Imports System.Windows.Forms
 
 Namespace TimelineTimeScales
-    Friend NotInheritable Class Program
 
-        Private Sub New()
-        End Sub
+    Friend Module Program
 
         ''' <summary>
         ''' The main entry point for the application.
         ''' </summary>
-        <STAThread> _
-        Shared Sub Main()
-            Application.EnableVisualStyles()
+        <STAThread>
+        Sub Main()
+            Call Application.EnableVisualStyles()
             Application.SetCompatibleTextRenderingDefault(False)
-            Application.Run(New Form1())
+            Call Application.Run(New Form1())
         End Sub
-    End Class
+    End Module
 End Namespace
