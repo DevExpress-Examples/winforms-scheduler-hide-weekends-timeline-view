@@ -70,7 +70,7 @@ private void HideWeekends(bool hide) {
 * [Time Scales - WinForms Scheduler](https://docs.devexpress.com/WindowsForms/3303/controls-and-libraries/scheduler/visual-elements/scheduler-control/time-scales#custom-scales)
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-scheduler-hide-weekends-timeline-view&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-scheduler-hide-weekends-timeline-view&~~~was_helpful=no)
 
